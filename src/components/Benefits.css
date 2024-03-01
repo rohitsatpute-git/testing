@@ -1,0 +1,14 @@
+#benefits{
+    background-color: rgb(23, 23, 23);
+    height: 150px;
+    margin: 2% auto;
+    display: flex;
+}
+
+#benefits img{
+    height: 50%;
+    margin: auto;
+    /* border: 1px solid white; */
+    justify-content: space-around;
+}
+

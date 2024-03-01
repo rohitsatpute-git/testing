@@ -1,0 +1,31 @@
+#t-container {
+    
+    /* border: 2px solid red; */
+    height: 15em;
+    background-color:  rgb(23, 23, 23);
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#t-component {
+    display: flex;
+    height: 100%;
+    margin: 2%;
+}
+
+#t-component #testimonial-img {
+    border: 2px solid rgb(236, 232, 232);
+    width: 20%;
+    height: 50%;
+    border-radius: 40%;
+    background-color: white;
+}
+
+#opinion {
+
+    /* border: 2px solid red; */
+    width: 100%;
+    text-align: left;
+    padding: 0% 10%;
+}

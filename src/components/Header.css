@@ -1,0 +1,244 @@
+#bar{
+    /* border: 4px solid red; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    
+    
+    
+}
+#navbarNav{
+    /* border: 2px solid red; */
+}
+.header{
+    /* border:2px solid red; */
+    padding: 0px 0px;
+}
+
+.container{
+    margin: 0;
+    margin-right: 0;
+    /* border: 2px solid red; */
+    padding: 0px 0px;
+}
+*{
+    font-family: sans-serif;
+}
+.outer{
+    /* height: 40%; */
+}
+#navbarNav1{
+    /* border: 4px solid red; */
+    /* font-size: ; */
+    margin-top: -20px;
+    background-color: #ffffff;
+   font-family: sans-serif;
+}
+.header{
+    /* border: 2px solid red; */
+    padding: 0px 0px;
+}
+#img{
+    height: auto;
+    /* border: 2px solid red; */
+    width: 7%;
+    margin:0px 0px;
+
+}
+
+
+#sidebar{
+    position:absolute;
+    /* width: 200px; */
+    height: 1000px;
+    background: #000;
+    /* border: 2px solid red;  */
+    left: -200px; 
+    transition: 0.4s;
+    top: 0;
+ 
+}
+
+ #sidebar .active{
+    left: 0px;
+}
+#sidebar ul li {
+    list-style: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 20px 24px;
+}
+
+#sidebar .toggle-btn{
+    position: absolute; 
+   
+  
+     top:12px; 
+    left:150%;
+    display: none;
+}
+
+.toggle-btn span{
+    width: 45px;
+    height: 5px;
+    background:#000;
+    display: block;
+    margin-top:4px ;
+}
+
+
+ 
+
+
+
+li:hover{
+    border-radius: 5px;
+    background-color: rgb(212, 212, 212);
+    color: rgb(124, 124, 124);
+}
+#search{
+     background-color:  #ef6e6e;
+     color: 'white' ;
+     border: none;
+     height:'25px';
+     border-radius:'5px';
+     width: 30%;
+     margin-left: 20px;
+     /* width: 100%; */
+     /* border:2px solid red; */
+}
+#inside-search{
+    /* border: 2px solid red; */
+    background-color: #ececec;
+    color: #ABA7A7;
+    border: none;
+    
+    
+}
+#pwc{
+    /* border:2px solid red; */
+    
+}
+#pwc .nav-item{
+    /* border: 2px solid red; */
+    margin: 10%;
+}
+#pwc .nav-link{
+  
+    margin:auto ;
+}
+#pwc .name{
+    font-size: 12px;
+}
+#navbarNav1 .nav-link{
+    /* border:2px solid red; */
+}
+#navbarNav1 div{
+ 
+    text-align: center;
+   
+    /* border: 2px solid gold; */
+}
+#navbarNav1 .nav-item{
+    /* border: 2px solid rgb(52, 170, 89); */
+    width: 12em;
+   
+}
+
+.cat-img{
+    /* border: 2px solid rgb(161, 132, 132); */
+    width: 70%;
+    height: 8em;
+    border-radius: 5em;
+    background-color: white;
+    margin: auto auto;
+
+}
+
+
+
+
+@media screen and (max-width:980px) {
+
+    .container{
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: row;
+        /* font-size: 9px; */
+    }
+    #search{
+        /* border: 2px solid red; */
+       border-radius: 5px;
+        margin-left: 20%;
+        width: 45%;
+    }
+    #img{
+        /* border: 2px solid red; */
+        display: none;
+    }
+    #navbarNav{
+        /* border: 2px solid red; */
+        display: none;
+    }
+    #pwc{
+        /* border: 2px solid red; */
+        width: 30%;
+        padding: 0px 0px;
+         
+        /* padding: 0px 10px; */
+        
+    }
+    #pwc .nav-link{
+        margin:20% auto;
+        height: 40%;
+        /* border: 2px solid #ff0000; */
+    }
+  
+    #pwc .nav-item{
+        /* text-align:center; */
+        margin:0px 8%;
+        /* font-size: 9px; */
+        /* border:2px solid red; */
+    }
+    .name{
+        /* border: 2px solid red; */
+       
+        margin: auto;
+    }
+    
+    #sidebar{
+        /* border: 2px solid red; */
+    }
+
+    #sidebar .toggle-btn{
+        display:block; 
+       
+    }
+    #navbarNav1{
+        margin:1% auto;
+    }
+    
+     #navbarNav1 .nav-link{
+        /* border: 2px solid saddlebrown; */
+        margin: 4% auto ;
+        font-size: 9px;
+        height: auto;
+        padding: 0;
+
+      
+    }
+    #navbarNav1 div{
+        font-size: 1.2em;
+    }
+    #navbarNav1 .nav-item{
+        height: 7em;
+        /* border: 2px solid red; */
+    }
+    .cat-img{
+        height: 9em;
+        width: 9em;
+        border-radius: 50%;
+    }
+ 
+}

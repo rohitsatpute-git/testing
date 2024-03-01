@@ -1,0 +1,12 @@
+#Carousel{
+    
+    /* border: 2px solid blue; */
+    height: 500px;
+}
+
+
+@media screen and (max-width:960px)  {
+    #Carousel{
+        height: 200px;
+    }
+}
